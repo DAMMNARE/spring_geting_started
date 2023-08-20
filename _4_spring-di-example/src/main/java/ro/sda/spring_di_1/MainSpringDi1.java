@@ -4,7 +4,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import ro.sda.spring_di_1.components.Dog;
 import ro.sda.spring_di_1.config.ProjectConfig;
 
-public class MainSpringD1 {
+public class MainSpringDi1 {
     public static void main(String[] args) {
 
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(ProjectConfig.class);
